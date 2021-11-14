@@ -1,0 +1,90 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #919191;
+}
+#container{
+	width: 1000px;
+	height: 1000px;
+	background-color:#919191;
+    margin: 20px auto;	
+}
+#calculator{
+	width: 320px;
+	height: 540px;
+	background-color: #212121;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+	height: 140px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 30px 20px;
+	font-size: 30px;
+	background-color: #383838;
+	color: #ffffff;
+}
+#keyboard{
+	margin-top: 20px;
+	margin: 20px 5px 0 5px;
+	height: 375px;
+	/* background-color: #303438; */
+	background-color: #272727;
+	border-radius: 15px;
+}
+.operator, .number, .empty{
+	width: 60px;
+	height: 50px;
+	margin: 11px 7px;
+	float: center;
+	border-radius: 30%;
+	border-width: 0;
+	font-size: 15px;
+}
+.number, .empty{
+	background-color: #272727;
+	color: #ffffff;
+	box-shadow: 0 0 4px 0 #212121;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+.operator{
+	font-size: 25px;
+	color: #F58840;
+	background-color: #272727;
+	box-shadow: 0 0 4px 0 #212121;
+}
+
+#clear, #backspace {
+	font-size: 15px;
+}
+
+input:nth-child(3){
+	font-size: 15px;
+}
+
+input:nth-child(20){
+	font-size: 25px;
+	color: #ffffff;
+	background-color: #F58840;
+}
